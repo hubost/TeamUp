@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".SettingsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginBottom="20sp"
+            android:src="@mipmap/ic_launcher"
+
+            ></ImageView>
+
+        <EditText
+            android:id="@+id/opis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:background="@null"
+            android:hint="opis"
+            android:inputType="textShortMessage"></EditText>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:background="@null"
+            android:hint="Name"
+
+            ></EditText>
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonshape"
+            android:text="Potwierdź"></Button>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonshape"
+            android:text="Wróć"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>

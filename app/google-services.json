@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "861949039411",
+    "project_id": "zpinowe",
+    "storage_bucket": "zpinowe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861949039411:android:bf045ae529706f7a7b2446",
+        "android_client_info": {
+          "package_name": "com.example.zpinowe2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861949039411-e27vfcisldej1e4kp8kt71ddiqihmgb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zpinowe2",
+            "certificate_hash": "0605d5e9b9af5e58add1ab112726c8a199a74d07"
+          }
+        },
+        {
+          "client_id": "861949039411-8v26lqc16o52m62n9p5migkmpgkb8mg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI_P8G-NeT09x8lO2NkfPOgGpooTgR5Hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861949039411-8v26lqc16o52m62n9p5migkmpgkb8mg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
